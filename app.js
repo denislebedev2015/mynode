@@ -1,5 +1,5 @@
 
-const d = require('./math.js');
+const math = require('./math.js');
 
-let res  = d.square(2) + d.cube(3);
+let res  = math.square(2) + math.cube(3);
 console.log(res);
